@@ -1,0 +1,26 @@
+{
+  "name": "discord-voice-blocker-bot",
+  "version": "1.0.0",
+  "description": "Bot para bloquear/desbloquear canais de voz automaticamente",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "scheduler"
+  ],
+  "author": "Você",
+  "license": "MIT"
+}
